@@ -9,7 +9,8 @@ let package = Package(name: "CLI",
       ]),
       Target(name: "Commander", dependencies: [
         .Target(name: "Rexy"),
-        .Target(name: "Extensions")
+        .Target(name: "Extensions"),
+        .Target(name: "EventEmitter")
       ])
     ],
     dependencies: []
